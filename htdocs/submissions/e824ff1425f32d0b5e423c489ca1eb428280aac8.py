@@ -1,0 +1,1 @@
+seven_seg=lambda i:"".join("".join([' _ | ||_|     |  | _  _||_  _  _| _|   |_|  | _ |_  _| _ |_ |_| _   |  | _ |_||_| _ |_| _|'[x:x+3]for x in(y*3+9*int(z)for z in i)])+"\n"for y in(0,1,2))

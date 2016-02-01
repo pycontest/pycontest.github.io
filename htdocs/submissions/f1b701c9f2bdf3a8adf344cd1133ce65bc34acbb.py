@@ -1,0 +1,1 @@
+seven_seg=lambda s:''.join([' _   |_|_ _| |\n'[int(r[int(d,16)],16):][:3]for r in'0200200000E','B399577355E','5379395359E'for d in s+'a'])

@@ -1,0 +1,1 @@
+def seven_seg(z):return''.join(''.join([" _ ","   ","| |","  |"," _|","|_|","|_ "][ord("\x15[&$k45\x1b-,"[int(a)])/b&7]for a in z)+"\n"for b in(64,8,1))

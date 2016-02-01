@@ -1,0 +1,1 @@
+j="".join;seven_seg=lambda x:j(j("     | _  _||  | ||_ |_|"[(ord('¯	ž›9³·‰¿»'[ord(c)-48])>>r&7)*3:][:3]for c in x)+"\n"for r in [6,3,0])

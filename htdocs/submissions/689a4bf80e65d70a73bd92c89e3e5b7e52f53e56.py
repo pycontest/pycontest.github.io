@@ -1,0 +1,1 @@
+def seven_seg(x):return '\n'.join([''.join(['|    ||__  __ |  || |'[eval('160233145144203154150133100104'[int(l)*3+u])::7]for l in x])for u in 0,1,2])+'\n'

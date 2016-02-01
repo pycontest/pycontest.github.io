@@ -1,0 +1,1 @@
+seven_seg=lambda i:'\n'.join(''.join(' _|x|'[ord("~$]m'k{do"[int(n)])>>s&j]for n in i for j in(2,1,4))for s in(6,0,3))+'\n'

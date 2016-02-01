@@ -1,0 +1,1 @@
+seven_seg=lambda x:'\n'.join(''.join('    _   || ||_  _||_|'[3*k:][:3]for k in i)for i in zip(*[map(int,'136022154155062145146122166165')[int(i)*3:][:3]for i in x]))+'\n'

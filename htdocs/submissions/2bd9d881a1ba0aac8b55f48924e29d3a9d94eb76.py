@@ -1,0 +1,1 @@
+seven_seg=lambda i:"\n".join(reduce(lambda x,c:[x[0]+(c&1and" _ "or"   "),x[1]+(c&2and"|"or" ")+(c&4and"_"or" ")+(c&8and"|"or" "),x[2]+(c&16and"|"or" ")+(c&32and"_"or" ")+(c&64and"|"or" ")],(0x37FF93DF3CEDAF647BL>>int(x)*7 for x in i),["","",""]))+"\n"

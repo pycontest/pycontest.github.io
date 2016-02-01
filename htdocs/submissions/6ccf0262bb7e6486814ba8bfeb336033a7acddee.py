@@ -1,0 +1,1 @@
+seven_seg=lambda s,j=''.join:j(j('   _ _| |_  |_|'[ord('^-TR5bfmvr'[int(c)])/b%8*2:][:3]for c in s)+'\n'for b in(64,8,1))

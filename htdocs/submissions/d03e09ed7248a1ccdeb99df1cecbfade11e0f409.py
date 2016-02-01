@@ -1,0 +1,1 @@
+seven_seg=lambda s,j=''.join:j(j(' _   _| |_  |_|'[ord('<Ú($êDLZld'[int(c)])>>b&14:][:3]for c in s)+'\n'for b in(6,3,0))

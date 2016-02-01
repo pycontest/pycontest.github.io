@@ -1,0 +1,1 @@
+def seven_seg(x):return''.join([''.join([' _|3|'[(ord('w\x12][:koR\x7f{'[a])&7<<c)>>c&b]for a in map(int,x)for b in[4,1,2]])+'\n'for c in[6,3,0]])

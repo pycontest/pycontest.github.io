@@ -1,0 +1,1 @@
+def seven_seg(i):return'\n'.join([''.join('    _ | |  | _||_||_ '[int(str(m)[int(c)])*3:][:3]for c in i)for m in 1011011111,2344566355,5364345354])

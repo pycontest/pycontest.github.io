@@ -1,0 +1,1 @@
+seven_seg=lambda x,j=''.join:'\n'.join([j([j([r&1<<int(l)+n*10and'_||'[n]or' 'for n in 2,0,1])for l in x])for r in 1005,924745596,341831533])+'\n'

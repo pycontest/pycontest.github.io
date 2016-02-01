@@ -1,0 +1,8 @@
+a=' _ '
+b='|_|'
+c='   '
+d='  |'
+e=' _|'
+f='|_ '
+g='| |'
+def seven_seg(x):return '\n'.join([eval('+'.join(['agbcddaefaeecbdafeafbaddabbabe'[int(l)*3+i]for l in x]))for i in 0,1,2])+'\n'

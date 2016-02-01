@@ -1,0 +1,1 @@
+seven_seg=lambda(x):'\n'.join(''.join(' |_ |'[r>>int(c)*3&i]for c in x for i in(4,2,1))for r in(306775170,1060861645,524130191))+'\n'

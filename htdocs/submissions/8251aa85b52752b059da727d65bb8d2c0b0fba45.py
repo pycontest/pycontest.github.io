@@ -1,0 +1,1 @@
+seven_seg=lambda x,k="".join:"\n\n".join([k([k([int('E0739BF2FBB3AB3993BB'[int(i)::10],16)& 1<<8-j and " ||___ ||"[j] or " " for j in range(9)]) for i in x])]*3)[::3]+"\n"

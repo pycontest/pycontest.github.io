@@ -1,0 +1,1 @@
+t=2,1,0;j=''.join;seven_seg=lambda i:j(j((' '+'|_|'[y])[ord('¯	ž›9³·‰¿»'[int(c)])>>3*x+y&1]for c in i for y in t)+'\n'for x in t)

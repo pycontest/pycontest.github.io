@@ -1,0 +1,1 @@
+def seven_seg(a):b=tuple;c=b(" |_X|");f=lambda g:"".join(map(lambda i:(lambda e:c[e&4]+c[e&2]+c[e&1])(int(b("%o"%g)[int(i)])),b(a)))+"\n";return f(273163410)+f(695200895)+f(969719419)

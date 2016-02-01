@@ -1,0 +1,2 @@
+c=' _ | ||_|     |  | _  _||_  _  _| _|   |_|  | _ |_  _| _ |_ |_| _   |  | _ |_||_| _ |_| _|'
+def seven_seg(x): return '\n'.join([''.join([c[int(d)*9+p:int(d)*9+p+3] for d in x]) for p in (0,3,6)]+[''])

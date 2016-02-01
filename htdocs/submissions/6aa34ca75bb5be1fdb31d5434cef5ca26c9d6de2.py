@@ -1,0 +1,1 @@
+def seven_seg(x):n=3*len(x);return('%c'*n+'\n')*3%tuple('|_  '[(-1,36,-1,284,262,192,1396,292,8)[i/n*3+i%3]>>int(x[i%n/3])&2|i%3&1]for i in range(3*n))

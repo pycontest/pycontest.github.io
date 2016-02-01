@@ -1,0 +1,1 @@
+z="".join;seven_seg=lambda x:z(z(' _   _|_| |_  |'[r>>int(i)*3&14:][:3]for i in x)+"\n"for r in[8208,934111592,664455910])

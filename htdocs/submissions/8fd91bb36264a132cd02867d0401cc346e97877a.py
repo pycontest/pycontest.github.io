@@ -1,0 +1,1 @@
+j=''.join;seven_seg=lambda s:j(j(' _    |_ _|_| |'[ord('j¤FHÔ8:$ZX'[int(c)])>>l&14:][:3]for c in s)+'\n'for l in(6,3,0))

@@ -1,0 +1,1 @@
+def seven_seg(x):return '\n'.join([''.join([{0:' ',1:'|',2:'_',4:'|'}[int('257 044 263 266 074 236 237 244 277 276'.split()[z][n])&q]for z in map(int,x)for q in [1,2,4]])for n in [0,1,2]])+'\n'

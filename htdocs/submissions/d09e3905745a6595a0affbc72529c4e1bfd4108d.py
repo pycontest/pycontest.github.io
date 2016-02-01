@@ -1,0 +1,1 @@
+seven_seg=lambda s,j=''.join:j(j(' _   _|_| |_  |'[i>>3*int(c)&14:][:3]for c in s)+'\n'for i in(8208,934111592,664455910))

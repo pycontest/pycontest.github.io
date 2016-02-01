@@ -1,0 +1,1 @@
+seven_seg=lambda x:''.join(' _ _|_| |_   |\n'[0x64ABB028022A4B0820840BB044042EEEL>>696-12*ord(i)+j&15:][:3]for j in(8,4,0)for i in x+':')

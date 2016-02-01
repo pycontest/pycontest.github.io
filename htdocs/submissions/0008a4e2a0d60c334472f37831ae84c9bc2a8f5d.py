@@ -1,0 +1,1 @@
+def seven_seg(x):return '\n'.join([''.join([' _     _  _     _  _  _  _  _ | |  | _| _||_||_ |_   ||_||_||_|  ||_  _|  | _||_|  ||_| _|'[int(i)*3+q:][:3]for i in x])for q in 0,30,60])+'\n'

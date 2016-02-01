@@ -1,0 +1,1 @@
+f=''.join;seven_seg=lambda x:f(f('| |   | __  __| | || '[j/7**int(i)%7::7]for i in x)+'\n'for j in(47084024,96344514,216922785))

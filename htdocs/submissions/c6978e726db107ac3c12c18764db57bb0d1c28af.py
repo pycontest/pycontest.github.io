@@ -1,0 +1,1 @@
+def seven_seg(a):b=' |_X|';c=lambda d:"".join(map(lambda e:(lambda f:b[f&1]+b[f&2]+b[f&4])(map(ord,'¯$³¶<žŸ¤¿¾')[int(e)]>>d),a))+"\n";return c(6)+c(3)+c(0)

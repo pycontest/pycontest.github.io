@@ -1,0 +1,1 @@
+seven_seg=lambda x:''.join([''.join(['|    ||__  __ || |  |'[0x88046E0B0D8C226531B434/8**(int(l)*3+u)%8::7]for l in x])+'\n'for u in 0,1,2])

@@ -1,0 +1,1 @@
+seven_seg=lambda x,f=''.join:f(f('    |||  __ __ | || |'[int(i[int(j)])::7]for j in x)+'\n'for i in('2022022222','4133655166','6153136163'))

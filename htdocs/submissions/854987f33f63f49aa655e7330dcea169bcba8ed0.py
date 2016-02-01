@@ -1,0 +1,1 @@
+seven_seg=lambda i,j=''.join:j(j(' _    |_| |_ _|'[0xA6B06CC8940DEE305/7**int(r+d)%7*2:][:3]for d in i)+'\n'for r in'210')

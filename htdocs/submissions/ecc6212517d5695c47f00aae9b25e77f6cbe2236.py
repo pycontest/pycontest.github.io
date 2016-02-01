@@ -1,0 +1,1 @@
+def seven_seg(x):return'\n'.join([''.join(['    _ |_||_  _|  || |'[ord('r-cd\ZmRT'[int(i)])/j%8*3:][:3]for i in x])for j in 64,8,1])+'\n'

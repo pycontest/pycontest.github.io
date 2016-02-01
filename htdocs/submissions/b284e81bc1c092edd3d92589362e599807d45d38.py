@@ -1,0 +1,1 @@
+seven_seg=lambda i:''.join([''.join([' | | | |  __  __    ||||'[(int('9VR4OPIRU1VJ4D7257'[l::3],32)>>int(c)*3)&7::8]for c in i])+'\n'for l in[0,1,2]])

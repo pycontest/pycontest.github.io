@@ -1,0 +1,1 @@
+j=''.join;seven_seg=lambda s:j(j(' _    | |_|_ _|'[2*(0x1008915b364f4532d54>>l+int(c)*3&7):][:3]for c in s)+'\n'for l in(60,30,0))

@@ -1,0 +1,1 @@
+def seven_seg(x):f=lambda i:''.join(' |  | |__ __   |||  |'[0x1904848181C08D6C4612A70>>9*int(c)+i&7::7]for c in x)+'\n';return f(0)+f(3)+f(6)

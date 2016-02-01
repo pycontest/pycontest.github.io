@@ -1,0 +1,1 @@
+seven_seg,_=lambda l:_(_('_ |'[1&O:][not 0x26DB5D6F8477Da3<<63&1<<10*O+ord(o)]for o in l for O in n)+'\n'for n in[(0,2,0),[3,4,1],[5,6,7]]),''.join

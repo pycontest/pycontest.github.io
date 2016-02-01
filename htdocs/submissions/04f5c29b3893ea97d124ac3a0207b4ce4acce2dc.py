@@ -1,0 +1,1 @@
+seven_seg=lambda x:(("".join([" |_"[(0x375bec44fa7592dc2f301ae>>(9*int(c))>>i)%2*(1+(2<i<6))]for c in x for i in range(9)])+'\n\n')*3+'\n')[::3]

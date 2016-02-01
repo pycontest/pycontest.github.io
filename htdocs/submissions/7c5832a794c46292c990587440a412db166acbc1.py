@@ -1,0 +1,1 @@
+f=''.join;seven_seg=lambda z:f(f('|  ||  _ __ _ ||| |  '[ord('%NÕ•FM…'[int(i)])>>j&7::7]for i in z)+'\n'for j in(0,3,6))

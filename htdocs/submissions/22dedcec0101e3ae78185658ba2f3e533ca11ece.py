@@ -1,0 +1,1 @@
+def seven_seg(x):return'\n'.join([''.join([l[n*3:n*3+3]for n in map(int,x)])for l in[' _     _  _     _  _  _  _  _ ','| |  | _| _||_||_ |_   ||_||_|','|_|  ||_  _|  | _||_|  ||_| _|']]+[''])

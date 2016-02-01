@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>
+			job - python coding contest
+		</title>
+		<link rel="stylesheet" href="/htdocs/layout.css" type="text/css" title="pythonic"/>
+		<link rel="icon" href="/htdocs/favicon.ico"/>
+		<link rel="shortcut icon" href="/htdocs/favicon.ico"/>
+	</head>
+
+	<body>
+
+		<div class="header">
+			<h1>
+			<a href="/">
+				pyContest.net
+			</a>
+			</h1>
+			<h4>
+				shortest python coding contest
+			</h4>
+		</div>
+
+
+
+		<div class="content" id="note">
+				<p>
+					<span class="important">
+					We finally have a winner,
+						check
+						<a href="/ranking">the results</a>!
+					</span>
+				</p>
+		</div>
+
+
+
+
+		<!-- MainMenu -->
+		<div id="menu">
+			<a href="/"
+			>about</a>
+
+
+			<a href="/timetable"
+			>timetable</a>
+
+			<a href="/job"
+					class="current"
+			>the job</a>
+
+			<a href="/submit"
+			>submit</a>
+
+
+
+			<a href="/ranking"
+			>ranking</a>
+		</div>
+
+
+
+<div class="content">
+
+	<h2>The job</h2>
+
+	<p>
+		Subject of the contest is to code the shortest possible python module
+		that converts decimal numbers to the
+		<a href="http://en.wikipedia.org/wiki/Seven-segment_display" title="Seven-segment display on Wikipedia">seven-segment display</a>
+		format. To support leading zeroes the decimal number is given as a
+		string.
+	</p>
+	<p>
+		A string containing "23" will result in:
+	</p>
+
+<pre>
+	 _  _ 
+	 _| _|
+	|_  _|
+</pre>
+	<p>
+		Or more precisely in the string:
+	</p>
+<pre>
+" _  _ \n _| _|\n|_  _|\n"
+</pre>
+
+	<p>
+		The module has to be named seven_seg and has to define the function
+		seven_seg. The function seven_seg takes a string as parameter and
+		returns a string.
+	</p>
+
+	<h2>Getting started</h2>
+	<p>
+		We provide a test suite that you can use to verify your results.
+		We use a very similar test suite to either accept or reject pending
+		submissions.
+	</p>
+	<p>
+	<a href="/htdocs/pycontest_01.tar.gz">Get your test suite here</a>
+	(<a href="/htdocs/pycontest_01.zip">zip</a>)
+	</p>
+	<p>
+		The test suite contains the following files:
+	</p>
+
+	<table>
+		<tr>
+			<td>seven_seg.py</td>
+			<td>a skeleton for your module</td>
+		</tr>
+		<tr>
+			<td>test_vectors.py</td>
+			<td>a dictionary of test vectors</td>
+		</tr>
+		<tr>
+			<td>test.py</td>
+			<td>
+				the test case, it imports seven_seg and verifies it with the 
+				help of the test vectors
+			</td>
+		</tr>
+	</table>
+
+	<p>
+		Any question? Check the
+		<a href="/faq">FAQ</a>!
+	</p>
+
+</div>
+
+		<p id="footer">
+		<a href="/contact">contact</a>
+
+		</p>
+	
+	</body>
+</html>
+

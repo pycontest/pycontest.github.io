@@ -1,0 +1,1 @@
+def seven_seg(x):return"".join("".join("  | | | __  __   ||||"[ord(str(d)[ord(i)-48])-48::7]for i in x)+"\n"for d in(1011011111,4355622366,6325356365))

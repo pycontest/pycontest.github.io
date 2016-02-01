@@ -1,0 +1,1 @@
+seven_seg=lambda n,s="".join:s(s(" _| |"[ord('w][:koR{'[int(i)])>>r&j]for i in n for j in(4,1,2))+"\n"for r in(6,3,0))

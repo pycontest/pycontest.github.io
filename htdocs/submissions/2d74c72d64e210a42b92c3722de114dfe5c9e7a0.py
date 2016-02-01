@@ -1,0 +1,1 @@
+j,seven_seg=''.join,lambda s:j(j(' |_ |'[i>>3*int(c)&b]for c in s for b in(4,2,1))+'\n'for i in(306775170,1060861645,524130191))

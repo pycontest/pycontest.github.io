@@ -1,0 +1,1 @@
+def seven_seg(x):return"".join("".join("  | | |___   _ || || "[d/7**(ord(i)-48)%7::7]for i in x)+"\n"for d in(7224,97166500,56265708))

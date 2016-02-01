@@ -1,0 +1,1 @@
+f=''.join;seven_seg=lambda x:f([f(['  |  || _  ___  |||| '[int('101101111123445663555364345354'[int(e)+10*j])::7]for e in x])+'\n'for j in 0,1,2])

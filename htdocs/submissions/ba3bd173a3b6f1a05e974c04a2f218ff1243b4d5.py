@@ -1,0 +1,1 @@
+def seven_seg(x):return '\n'.join([''.join([[dict(zip('X_IHJUL',('   ',' _ ','  |','| |',' _|','|_|','|_ ')))[y] for y in '_HUXII_JL_JJXUI_LJ_LU_II_UU_UJ'][int(n)*3+z] for n in x]) for z in [0,1,2]])+'\n'

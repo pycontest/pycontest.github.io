@@ -1,0 +1,1 @@
+z="".join;seven_seg=lambda x:z(z(' _    |_|_ _| |'[ord('f¤XZ´JF$6:'[int(i)])>>s&14:][:3]for i in x)+"\n"for s in[6,3,0])
